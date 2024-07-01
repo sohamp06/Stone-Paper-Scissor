@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    background-color: #aca4ad;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+.choice {
+    height: 185px;
+    width: 185px;
+
+}
+
+.choice:hover {
+    opacity: 80%;
+    cursor: pointer;
+
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.1s ease-in-out;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#user-score,
+#computer-score {
+    font-size: 3rem;
+}
+
+.msg-container {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg {
+    background-color: #081b31;
+    color: white;
+
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+
+.button-container {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button {
+    background-color: #aca4ad;
+    color: white;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+.change-theme {
+    background-color: black;
+    color: white;
+}
