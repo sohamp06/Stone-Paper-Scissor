@@ -9,7 +9,7 @@ Developed a basic Rock-Paper-Scissors game using HTML, CSS, and JavaScript. Adde
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/sohamp06/Rock-Paper-Scissor.git`
+1. Clone the repository: `git clone https://github.com/sohamp06/Stone-Paper-Scissor.git`
 2. Open index.html in your web browser.
 
 
